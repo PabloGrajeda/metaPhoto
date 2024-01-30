@@ -16,7 +16,7 @@ export default function Home(
 	props: InferGetServerSidePropsType<typeof getServerSideProps>
 ) {
 	// const [currentPage, setCurrentPage] = useState(1)
-	const [pageLimit, setPageLimit] = useState('5')
+	const [pageLimit, setPageLimit] = useState('25')
 	const [offset, setOffset] = useState(0)
 	const [photos, setPhotos] = useState(props.photos)
 	// const [pages, setPages] = useState(props.pages)
